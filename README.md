@@ -1,25 +1,25 @@
 # Todo go flutter
-## A todo app that synchronizing the users todo's with a backend.
+## A todo app that synchronizes the user's todo's with a backend.
 
 The project is using go (golang) with gin and sqlite3 for the backend part, and flutter dart for the frontend
 the main reason for creating this project is to practice go language.
 
 When opening the app, a welcome screen with email input appears.
-when entering an email, the app querying the backend's database for that email.
-when the server is receiving the request, it will  search the databse for a user with that email and will return
-the users todo, or an empty array if new user, the todo lsit will be randered then on the app.
+when entering an email, the app queries the backend's database for that email.
+when the server is receiving the request, it will search the database for a user with that email and will return
+the user's todo, or an empty array if it's a new user, the todo list will be rendered then on the app.
 
 each action on the app is sent to the backend to be stored.
 the available actions are:
-1. creating new todo
+1. creating a new todo
 2. deleting todo
-3. checkng todo as finished
+3. checking todo as finished
 4. checking todo as unfinished
 
 each todo has an urgency field, the available urgencies are: low, medium, high
 and which urgency renders a different circle color to the left of the todo text.
 
-for the databse, i have used sqlite, the data is stored inside two tables, one for users and one for todos
+for the database, I have used SQLite, the data is stored inside two tables, one for users and one for todos
 the tables are as follows:
 
 
