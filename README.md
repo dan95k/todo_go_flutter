@@ -56,9 +56,17 @@ from frontend folder run `flutter run lib/main.dart` or using vscode debug
 
 <div align="center">
   
-  ### GIF:
+### GIF:
+</div>
 <p align="center">
   <img src="https://github.com/dan95k/todo_go_flutter/blob/main/images/app_demo.gif?raw=true" width="300" height="600" />
 </p>
 
-<!-- ![Alt Text](https://github.com/dan95k/todo_go_flutter/blob/main/images/app_demo.gif?raw=true) -->
+<div align="center">
+  
+### Application login:
+</div>
+<p align="center">
+  <img src="https://github.com/dan95k/todo_go_flutter/blob/main/images/Untitled%20Diagram.drawio.png?raw=true" width="500" height="300" />
+</p>
+
