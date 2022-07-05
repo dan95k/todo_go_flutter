@@ -46,6 +46,14 @@ the tables are as follows:
 
 **To run, need to set the server address inside the .env file in the frontend folder**
 
+**Run backend:**
+
+from backend folder run `go run main.go types.go`
+
+**Run frontend**:
+
+from frontend folder run `flutter run lib/main.dart` or using vscode debug
+
 <div align="center">
   
   ### GIF:
