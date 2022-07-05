@@ -10,6 +10,5 @@
 .packages
 build/
 pubspec.lock
-.env*
 .flutter-plugins
 .flutter-plugins-dependencies
